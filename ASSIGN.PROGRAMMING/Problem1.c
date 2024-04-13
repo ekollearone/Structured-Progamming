@@ -1,0 +1,95 @@
+#include <stdio.h>
+
+int main(){
+    float a = 5000;
+    float b = 0.02;
+    float c = 0.18;
+   
+    float i = a + ((c/12.0) * a);
+    printf("------------------------------\n");
+  printf("Month:0\n");
+      float d = a *b;
+        printf("Minimum_monthly_payment:%.2f\n", d);
+      float e =  (a -  d);
+        printf("Remaining_balance:%.2f\n", e);
+     printf("Month:1\n");
+         float f=i;
+         float d1 = b * i;
+      printf("Minimum_monthly_payment:%.2f\n",d1);
+         float e1 = (i - d1);
+      printf("Remaining_balance:%.2f\n", e1);
+         float i1 = e1 + ((c/12.0) * e1);
+   printf("Month:2\n"); 
+        float d2 = b * i1;
+          printf("Minimum_monthly_payment:%.2f\n",d2);
+        float e2 = (i1 - d2);
+          printf("Remaining_balance:%.2f\n", e2);
+       printf("Month:3\n");
+             float i2 = e2 + ((c/12.0) * e2);
+        	 float d3 = b * i2;
+ 			  printf("Minimum_monthly_payment:%.2f\n", d3);
+ 			 float e3 = (i2 - d3);
+ 			  printf("Remaining_balance:%.2f\n", e3);
+		 printf("Month:4\n");
+    		  float i3 = e3 + ((c/12.0) * e3);
+ 			  float d4 = b * i3;
+ 				 printf("Minimum_monthly_payment:%.2f\n", d4);
+ 			  float e4 = (i3 - d4);
+ 				 printf("Remaining_balance:%.2f\n", e4);
+ 			printf("Month:5\n");
+                float i4 = e4 + ((c/12.0) * e4);
+                float d5 = b * i4;
+ 					printf("Minimum_monthly_payment:%.2f\n", d5);
+                float e5 = (i4 - d5);
+ 					printf("Remaining_balance:%.2f\n", e5);
+ 				printf("Month:6\n");
+                     float i5 = e5 + ((c/12.0) * e5);
+                     float d6 = b * i5;
+ 						printf("Minium_monthly_prayment:%.2f\n", d6);
+                     float e6 = (i5 - d6);
+ 						printf("Remaining_balance:%.2f\n", e6);
+					 printf("Month:7\n");
+                          float i6 = e6 + ((c/12.0) * e6);
+                          float d7 = b * i6;
+ 							 printf("Minimum_monthly-payment:%.2f\n", d7);
+                          float e7 = (i6 - d7);
+ 							 printf("Remaining_balance:%.2f\n", e7);
+						 printf("Month:8\n");
+ 								float i7 = e7 + ((c/12.0) * e7);
+                                float d8 = b * i7;
+ 								  printf("Minimum_monthly_payment:%.2f\n", d8);
+ 								float e8 = (i7 - d8);
+ 							 printf("Remaining_balance:%.2f\n", e8);
+ 							printf("Month:9\n");
+							 float i8 = e8 + ((c/12.0) * e8);
+ 							 float d9 = b * i8;
+								 printf("Minimum_monthly_payment:%.2f\n", d9);
+                             float e9 = (i8 - d9);
+								 printf("Remaining_balance:%.3f\n", e9);
+							printf("Month:10\n");
+                             float i9 = e9 + ((c/12.0) * e9);
+                             float d10 = b * i9;
+ 									printf("Minimum_monthly_payment:%.2f\n", d10);
+                             float e10 =(i9 - d10);
+								    printf("Remaining_balance:%.2f\n", e10);
+ 								printf("Month:11\n");
+                                     float i10 = e10 + ((c/12.0) * e10);
+                                     float d11 = b * i10;
+ 										printf("Minimum_monthly_payment:%.2f\n", d11);
+                                     float  e11 = (i10 - d11);
+									    printf("Remaining_balance:%.2f\n", e11);
+ 								printf("Month:12\n");
+                                 float i11 = e11 + ((c/12) * 11);
+                                 float d12 = b * i11;
+  									printf("Minum_monyhly_payment:%.2f\n",d12);
+                                 float e12 = (i11 - d12);
+  									printf("Remaining_balance:%.2f\n", e12);
+                   float sum = (d+d1+d2+d3+d4+d5+d6+d7+d8+d9+d10+d11+d12);
+                     printf("Total paid:%.2f\n",sum);
+                     float a1 = (a-sum) + (i11 * c);
+                      printf("Remaining_balance:%.2f\n",a1);
+                      printf("--------------------------");
+                      
+                      
+ 
+}
