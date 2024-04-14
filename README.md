@@ -37,4 +37,14 @@ How To Compile:
 		using dev c++, click on the icon tap above to compile and run the code.
 
   
-
+  Basic Concepts
+Name: FUNWIE NDEMASONG BLAISE
+      Am a level 1 student at kelden university studying software engineering.
+1.This is a c program to SWAP 2 numbers without using third variable.
+       This is a code that assign the value of num1 to num2 and the value of num2 to num1.To use this SWAP algorithm simply call the two_swap function.The function returns the value of num1 to num2 and the value of num2 to num1.The code is called two_swap.c.
+2. This is a c program to calculate the remainder of two numbers without using the % operator.
+       This code snippet demonstrates how to calculate the remainder of two numbers without using the modulus (%) operator in programming.To use this code simply provide the dividend and divisor values and run it to see the result.The code is called remainder.c.
+3.This is a c program to calculate the sum of digits of a 3 digit number.
+       This code snippet demonstrates how to calculate the sum of digits of a 3 digit number in programming.To use this code simply provide the 3 digit number and run it to see the result.The code is called sum.c.
+4.This is a c program to print the reverse of a 3-digit number.
+       This code snippet demonstrate a function that calculate and print the reverse of a 3-digit number in programming.To use this code provide a 3-digit number as input to the function and run it to display the reverse number.The code is called reverse.c.
