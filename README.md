@@ -3,7 +3,7 @@
 	Payment Of Crediit Card Debt
 COLLABORATORS:
 	-ARONE M
-	- BLASE N
+	- BLAISE N
 	- KELVIN F
  a=purchase on credit card (Amount).
  b=Minimum Monthly Payment Rate.
