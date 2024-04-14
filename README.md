@@ -1,50 +1,134 @@
-#Arone/problem 1.c
-                     Problem 1
-	Payment Of Crediit Card Debt
-COLLABORATORS:
-	-ARONE M
-	- BLAISE N
-	- KELVIN F
- a=purchase on credit card (Amount).
- b=Minimum Monthly Payment Rate.
- c=Annual Interest Rate.
- NB:12.0, is the total month.
- d=minimum payment at month zero, 'd' keeps adding by 1 upto d12.
- i=update balance at month zero, 'i' keeps by 1 adding upto e12.
- e=balance at month zero, 'e' keeps adding by 1 upto e12.
- a1=remaining balance.
-       How To Compile:
-		using dev c++, click on the icon tap above to compile and run the code.
-  #Aronre/problem 2.c
-  
-                                   Problem 2
-               Paying  Debt Off In A YEAR.
-  Program calculates the fixed minimum monthly payment to pay off a credit card balance within 12 months,
-and the monthly payment balance is a multiple of 10.
- b0=update balance.
- b=balance.
- j=annual interest rate.
- i=total month.
- a1=monthly interest rate.
- x=main balance.
- u=lowest payment.
- mp=multiple of 10 as update for x.
-	How To Compile:
-		using dev c++, click on the compilation icon at the top to compile and run the code. 
-#Arone/question 8.c
-A C program to calculate the value of x raised to the power y.
-How To Compile:
-		using dev c++, click on the icon tap above to compile and run the code.
+#structured_programming_basics/magic number.c
+The program consists of two main functions: isMagicNumber() and main().
 
-  
-  Basic Concepts
-Name: FUNWIE NDEMASONG BLAISE
-      Am a level 1 student at kelden university studying software engineering.
-1.This is a c program to SWAP 2 numbers without using third variable.
-       This is a code that assign the value of num1 to num2 and the value of num2 to num1.To use this SWAP algorithm simply call the two_swap function.The function returns the value of num1 to num2 and the value of num2 to num1.The code is called two_swap.c.
-2. This is a c program to calculate the remainder of two numbers without using the % operator.
-       This code snippet demonstrates how to calculate the remainder of two numbers without using the modulus (%) operator in programming.To use this code simply provide the dividend and divisor values and run it to see the result.The code is called remainder.c.
-3.This is a c program to calculate the sum of digits of a 3 digit number.
-       This code snippet demonstrates how to calculate the sum of digits of a 3 digit number in programming.To use this code simply provide the 3 digit number and run it to see the result.The code is called sum.c.
-4.This is a c program to print the reverse of a 3-digit number.
-       This code snippet demonstrate a function that calculate and print the reverse of a 3-digit number in programming.To use this code provide a 3-digit number as input to the function and run it to display the reverse number.The code is called reverse.c.
+isMagicNumber(int num): This function takes an integer as input and returns 1 if the sum of its digits is 1, indicating that it's a magic number. Otherwise, it returns 0.
+
+main(): This is the entry point of the program. It prompts the user to enter a 3-digit number, reads the input, and checks if it's a valid 3-digit number. If the number is valid, it calls the isMagicNumber() function to determine if it's a magic number or not, and prints the result accordingly.
+
+Usage
+Compile the program using a C compiler. For example, using gcc:
+
+Copy code
+gcc magic_number.c -o magic_number
+Run the compiled program:
+
+bash
+Copy code
+./magic_number
+Enter a 3-digit number when prompted.
+
+Example
+less
+Copy code
+Enter a 3-digit number: 123
+123 is not a magic number.
+less
+Copy code
+Enter a 3-digit number: 19
+19 is a magic number.
+Note
+The program only accepts 3-digit numbers. If the user enters a number that is not a 3-digit number, it will prompt to enter a valid 3-digit number.
+Feel free to customize and expand upon this README as needed!
+By sending a message, you agree to our Terms. Read our Privacy Policy. Don't share sensiti
+
+
+
+#structured_programming_basics/power.c
+The program consists of two main components: the power() function and the main() function.
+
+power(double x, int y): This function takes a base x (double) and an exponent y (integer) as input and returns x raised to the power of y. If y is negative, the function returns -1 indicating an error.
+
+main(): This is the entry point of the program. It prompts the user to enter the value of x and y, reads the input, and calculates x raised to the power of y using the power() function. If y is negative, it prints an error message; otherwise, it prints the result.
+
+Usage
+Compile the program using a C compiler. For example, using gcc:
+
+Copy code
+gcc power_calculator.c -o power_calculator
+Run the compiled program:
+
+bash
+Copy code
+./power_calculator
+Enter the value of x and y when prompted.
+
+Example
+mathematica
+Copy code
+Enter the value of x: 2.5
+Enter the value of y: 3
+2.50 raised to the power of 3 is 15.63
+yaml
+Copy code
+Enter the value of x: 4
+Enter the value of y: -2
+Invalid input: y should be greater than or equal to 0.
+
+
+
+
+#structured_programing_basics/pyramid.c
+The program consists of a single main() function.
+
+main(): This is the entry point of the program. It prompts the user to enter the number of rows for the pyramid pattern. It then iterates through each row, printing spaces followed by numbers according to the pattern described above.
+Usage
+Compile the program using a C compiler. For example, using gcc:
+
+Copy code
+gcc pyramid_pattern.c -o pyramid_pattern
+Run the compiled program:
+
+bash
+Copy code
+./pyramid_pattern
+Enter the number of rows for the pattern when prompted.
+
+Example
+markdown
+Copy code
+Enter the number of rows: 5
+        1
+      2 3 2
+    3 4 5 4 3
+  4 5 6 7 6 5 4
+5 6 7 8 9 8 7 6 5
+
+
+
+
+#structured_programming_basics\star.c
+The program consists of a single main() function.
+
+main(): This is the entry point of the program. It prompts the user to enter the number of rows for the pyramid pattern. It then iterates through each row, printing spaces and asterisks accordingly to form the pyramid shape.
+Usage
+Compile the program using a C compiler. For example, using gcc:
+
+Copy code
+gcc pyramid_star_pattern.c -o pyramid_star_pattern
+Run the compiled program:
+
+bash
+Copy code
+./pyramid_star_pattern
+Enter the number of rows for the pattern when prompted. 
+Note
+The number of rows entered by the user should be a positive integer.
+
+
+
+
+#structured_programming_basics\time_table.c
+The program consists of a single main() function.
+
+main(): This is the entry point of the program. It prompts the user to enter an integer. It then iterates from 1 to 10 and prints each multiplication operation in the format: <number> * <i> = <result>.
+Usage
+Compile the program using a C compiler. For example, using gcc:
+
+Copy code
+gcc multiplication_table.c -o multiplication_table
+Run the compiled program:
+
+bash
+Copy code
+./multiplication_table
+Enter the integer for which you want to generate the multiplication table when prompted
